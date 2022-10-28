@@ -1,0 +1,130 @@
+[
+  {
+    "id": "1",
+    "title": "Plumbing & Sanitary Services",
+    "image": "https://img.freepik.com/free-vector/pipeline-maintenance-concept-illustration_114360-5869.jpg?w=740&t=st=1666935699~exp=1666936299~hmac=04fa7b3dbe169855757adc41da2bc7256d2cc8a442c070fb251e9bdf0632ac00",
+    "description": "All your Plumbing and Sanitary-related problems will be taken care of by GreehoSheba marketplace.",
+    "faq": [
+      {
+        "_id": "1",
+        "question": "Does accessories cost included in service charge?",
+        "answer": "No, additional materials and parts cost are excluded from service charge."
+      },
+      {
+        "_id": "2",
+        "question": "Is the plumbers trained?",
+        "answer": "Yes, we train all the plumber then give permission to work."
+      },
+      {
+        "_id": "3",
+        "question": "Do I have to pay any charge if i don't take any service after calling?",
+        "answer": "If you don’t avial any plumbing and sanitary service after provided technician reach at your doorstep then you only have to pay the visiting charge which is BDT 100."
+      }
+    ],
+    "rating": "4.5"
+  },
+  {
+    "id": "2",
+    "title": "Gas Stove/Burner Repair",
+    "image": "https://img.freepik.com/free-vector/cartoon-retro-kitchen-interior-with-wooden-table-furniture_88138-1133.jpg?w=996&t=st=1666935530~exp=1666936130~hmac=30da108abec952c90a3c470553d0dfa9b3138c73d9b067fb92f89ad4fd20bcd4",
+    "description": "When a gas stove breaks down it requires urgent servicing. Now you don’t have to go out and search for gas stove servicing centers. At GreehoSheba you will find doorstep expert gas stove servicing and repairing.",
+
+    "rating": "4.5"
+  },
+  {
+    "id": "3",
+    "title": "Lock Mechanic",
+    "image": "https://img.freepik.com/free-vector/man-sitting-desk-unlocking-computer-computer-settings-login-flat-illustration_74855-20645.jpg?w=740&t=st=1666935276~exp=1666935876~hmac=76b348c36882dd907f5b5f32d1bceecfd18b79e6278a7420a9c547a1cf485729",
+    "description": "If get locked to your home/outside, and door lock or any kind of lock, you can search on GreehoSheba to find a experiensed mechanic",
+    "faq": [
+      {
+        "_id": "1",
+        "question": "Do I need to buy the paint?",
+        "answer": "Actually no. Our service provider will buy the paint according to your preference. However, this might differ if you have chosen to supply paint by yourself. Product costs shall be provided in advance where applicable."
+      },
+      {
+        "_id": "2",
+        "question": "Do I need to pay for extra labor?",
+        "answer": "For every service we will assign a proper number of laborers to complete it on time. But if you want extra labor in order to complete it early then you have to pay for extra labor."
+      },
+      {
+        "_id": "3",
+        "question": "Do I have to pay any charge if i don't take any service after calling?",
+        "answer": "For every service we will assign a proper number of laborers to complete it on time. But if you want extra labor in order to complete it early then you have to pay for extra labor."
+      }
+    ],
+    "rating": "4.5"
+  },
+  {
+    "id": "4",
+    "title": "Painting Services",
+    "image": "https://img.freepik.com/free-vector/painter-concept-people-uniform-paint-wall-with-paint-roller-plastering-wall-with-spatula-wall-decorator-renovating-house-vector-flat-illustration_613284-3086.jpg?w=740&t=st=1666934843~exp=1666935443~hmac=a346eebff32efa62ace3cd9bdbe71dc1379bec811620b66931f4d6e700140608",
+    "description": "Home wall painting may seem like an easy task but it is something that is best left to a professional painter to handle. Search on GreehoSheba, you will find a expert painter.",
+    "faq": [
+      {
+        "_id": "1",
+        "question": "Do I need to buy the paint?",
+        "answer": "Actually no. Our service provider will buy the paint according to your preference. However, this might differ if you have chosen to supply paint by yourself. Product costs shall be provided in advance where applicable."
+      },
+      {
+        "_id": "2",
+        "question": "Do I need to pay for extra labor?",
+        "answer": "For every service we will assign a proper number of laborers to complete it on time. But if you want extra labor in order to complete it early then you have to pay for extra labor."
+      },
+      {
+        "_id": "3",
+        "question": "Do I have to pay any charge if i don't take any service after calling?",
+        "answer": "For every service we will assign a proper number of laborers to complete it on time. But if you want extra labor in order to complete it early then you have to pay for extra labor."
+      }
+    ],
+    "rating": "4.5"
+  },
+  {
+    "id": "5",
+    "title": "House Shifting Services",
+    "image": "https://img.freepik.com/free-vector/three-moving-workers_603843-3499.jpg?w=740&t=st=1666934751~exp=1666935351~hmac=b13395a94fd8dec80b1eca14e8883af8b44038031be7e8cef7a424a0d7a3c978",
+    "description": "Looking for hassle-free house shifting services in Bangladesh near you for safe relocation? Don’t worry. GreehoSheba has best movers for household furniture, appliances and goods shifting at the competitive price in Bangladesh. ",
+    "faq": [
+      {
+        "_id": "1",
+        "question": "Do I need to buy the paint?",
+        "answer": "Actually no. Our service provider will buy the paint according to your preference. However, this might differ if you have chosen to supply paint by yourself. Product costs shall be provided in advance where applicable."
+      },
+      {
+        "_id": "2",
+        "question": "Do I need to pay for extra labor?",
+        "answer": "For every service we will assign a proper number of laborers to complete it on time. But if you want extra labor in order to complete it early then you have to pay for extra labor."
+      },
+      {
+        "_id": "3",
+        "question": "Do I have to pay any charge if i don't take any service after calling?",
+        "answer": "For every service we will assign a proper number of laborers to complete it on time. But if you want extra labor in order to complete it early then you have to pay for extra labor."
+      }
+    ],
+    "rating": "4.5"
+  },
+  {
+    "id": "6",
+    "title": "Refrigerator Repair Services",
+    "image": "https://img.freepik.com/free-vector/housewife-repairman-with-tools-box-kitchen-near-broken-fridge-leakage-floor-home-appliance-repair-service_575670-1163.jpg?w=740&t=st=1666934602~exp=1666935202~hmac=e21972c3d10476474044b6c06e758c3b2a099aa1f9e3cb385e5607f9a8f7ca4e",
+    "description": "At GreehoSheba online marketplace, you can hire professional technicians to repair your fridge or freezer. From general diagnosis to material repairing you can find it all in one place. ",
+    "faq": [
+      {
+        "_id": "1",
+        "question": "Do I need to buy the paint?",
+        "answer": "Actually no. Our service provider will buy the paint according to your preference. However, this might differ if you have chosen to supply paint by yourself. Product costs shall be provided in advance where applicable."
+      },
+      {
+        "_id": "2",
+        "question": "Do I need to pay for extra labor?",
+        "answer": "For every service we will assign a proper number of laborers to complete it on time. But if you want extra labor in order to complete it early then you have to pay for extra labor."
+      },
+      {
+        "_id": "3",
+        "question": "Do I have to pay any charge if i don't take any service after calling?",
+        "answer": "For every service we will assign a proper number of laborers to complete it on time. But if you want extra labor in order to complete it early then you have to pay for extra labor."
+      }
+    ],
+    "rating": "4.5"
+  }
+]
