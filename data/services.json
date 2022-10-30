@@ -26,9 +26,25 @@
   {
     "id": 2,
     "title": "Gas Stove/Burner Repair",
-    "image": "https://lh5.googleusercontent.com/47QUMOYhCJOWmj7PdhmJI--naUALusRdiKAxhkzwoRpSlEZUcMlxSSasr8TH2A_vCfrkE_eOYvq4PwmzOjKJfO9Oe8tczP9xbT8bEsURHpvBTeiBttZPUgEpTm26t7aGDVctMx3EdRHQKBZEX6sHZg",
+    "image": "https://media.istockphoto.com/vectors/professional-repairman-in-uniform-repairing-or-installing-oven-home-vector-id1278538450?k=20&m=1278538450&s=612x612&w=0&h=CJXk4sTN_ipMkiKf97bjCx68Q2AD6DFDfSJ8XOTFS0A=",
     "description": "When a gas stove breaks down it requires urgent servicing. Now you don’t have to go out and search for gas stove servicing centers. At GreehoSheba you will find doorstep expert gas stove servicing and repairing.",
-
+    "faq": [
+      {
+        "_id": "1",
+        "question": "Do I need to buy the paint?",
+        "answer": "Actually no. Our service provider will buy the paint according to your preference. However, this might differ if you have chosen to supply paint by yourself. Product costs shall be provided in advance where applicable."
+      },
+      {
+        "_id": "2",
+        "question": "Do I need to pay for extra labor?",
+        "answer": "For every service we will assign a proper number of laborers to complete it on time. But if you want extra labor in order to complete it early then you have to pay for extra labor."
+      },
+      {
+        "_id": "3",
+        "question": "Do I have to pay any charge if i don't take any service after calling?",
+        "answer": "For every service we will assign a proper number of laborers to complete it on time. But if you want extra labor in order to complete it early then you have to pay for extra labor."
+      }
+    ],
     "rating": "4.5"
   },
   {
