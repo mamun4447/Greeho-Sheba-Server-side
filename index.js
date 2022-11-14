@@ -28,7 +28,7 @@ async function run() {
 run().catch((error) => console.error(error.message));
 
 const Services = client.db("finalProject").collection("services");
-const Provider = client.db("finalProject").collection("provider");
+const Users = client.db("finalProject").collection("users");
 
 app.get("/services", async (req, res) => {
   try {
@@ -62,9 +62,9 @@ app.get("/services/:id", async (req, res) => {
   }
 });
 
-app.post("/provider", async (req, res) => {
+app.post("/users", async (req, res) => {
   try {
-    await Provider.insertOne(req.body);
+    await Users.insertOne(req.body);
     res.send({
       success: true,
       message: "Successfully created account!",
@@ -72,7 +72,7 @@ app.post("/provider", async (req, res) => {
   } catch (error) {
     res.send({
       success: false,
-      message: error,
+      message: error.message,
     });
     console.log(error);
   }
