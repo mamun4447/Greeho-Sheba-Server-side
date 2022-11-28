@@ -44,6 +44,7 @@ app.get("/services", async (req, res) => {
       success: false,
       message: error.message,
     });
+    console.log(error);
   }
 });
 
@@ -77,6 +78,21 @@ app.post("/users", async (req, res) => {
     console.log(error);
   }
 });
+
+app.get("/users", async (req, res) => {
+  try {
+    const email = req.query.email;
+    const provider = await Users.findOne({ email });
+    const result = await Users.find({}).toArray();
+    if (provider?.role !== "admin") {
+      return res.send({ message: "Unauthorized request!" });
+    }
+    res.send(result);
+  } catch (error) {
+    console.error(error);
+  }
+});
+app.get("/users/");
 
 app.listen(Port, () => {
   console.log("server is running", Port);
