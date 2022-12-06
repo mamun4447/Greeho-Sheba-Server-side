@@ -1,10 +1,10 @@
 const express = require("express");
-// const bodyParser = require("body-parser");
+const bodyParser = require("body-parser");
 const app = express();
 const cors = require("cors");
 const Port = process.env.PORT || 8000;
 
-// app.use(bodyParser());
+app.use(bodyParser());
 app.use(cors());
 app.use(express());
 
@@ -18,7 +18,6 @@ const client = new MongoClient(uri, {
   serverApi: ServerApiVersion.v1,
 });
 
-
 //===Connect to DB===//
 async function run() {
   try {
@@ -29,7 +28,6 @@ async function run() {
   }
 }
 run().catch((error) => console.error(error.message));
-
 
 //=== DataBase Collections ===//
 const Services = client.db("finalProject").collection("services");
@@ -55,7 +53,7 @@ app.get("/services", async (req, res) => {
   }
 });
 
-//==== Order Spacific Service ====//
+//==== Order Specific Service ====//
 app.get("/services/:id", async (req, res) => {
   try {
     const id = req.params.id;
@@ -82,7 +80,7 @@ app.post("/users", async (req, res) => {
   } catch (error) {
     res.send({
       success: false,
-      message: error.message,
+      message: error?.message,
     });
     console.log(error);
   }
@@ -103,7 +101,7 @@ app.get("/users", async (req, res) => {
   }
 });
 
-//===Get Spacific User===//
+//===Get Specific User===//
 app.get("/users/:email", async (req, res) => {
   try {
     const email = req.params.email;
@@ -147,7 +145,7 @@ app.delete("/provider-delete/:id", async (req, res) => {
 
     res.send({ success: true, message: "Deleted successfully!" });
   } catch (error) {
-    res.send({ seccess: false, error: "Couldn't Delete it!" });
+    res.send({ success: false, error: "Couldn't Delete it!" });
   }
 });
 
